@@ -1,5 +1,5 @@
 import express from 'express';
-import taskRouter from './src/routes/taskRouter.js';
+import taskRouter from './src/routes/routes.js';
 
 class App {
     constructor(){
