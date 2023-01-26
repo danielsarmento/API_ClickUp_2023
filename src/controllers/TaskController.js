@@ -19,7 +19,7 @@ class Task {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    Authorization: process.env.AUTH_KEY
+                    Authorization: "pk_43142280_QAT9713VPC4CGS1X1CTFIKDF63SYWQJO"
                 },
                 body: JSON.stringify({
                     name: `Novo Suporte - ${nameTask}`,
